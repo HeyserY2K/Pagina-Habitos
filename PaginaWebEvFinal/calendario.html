@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<!-- Hecho por Luis Raul Ariceaga -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activapp</title>
+    <meta name="Aplicación enfocada en hacer buenos y deshacer malos hábitos." content="">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/w3style.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+</head>
+<body class="body">
+    <header id="barraArriba">
+        <nav class="navbar">
+            <span class="col-md-6 d-flex justify-content-start">
+                <!--Calendario-->
+                <div>
+                    <a href="calendario.html">
+                        <svg width="4em" height="4em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102" height="102" viewBox="0 0 102 102">
+                            <defs>
+                              <filter id="Ellipse_1" x="0" y="0" width="102" height="102" filterUnits="userSpaceOnUse">
+                                <feOffset dy="3" input="SourceAlpha"/>
+                                <feGaussianBlur stdDeviation="3" result="blur"/>
+                                <feFlood flood-opacity="0.122"/>
+                                <feComposite operator="in" in2="blur"/>
+                                <feComposite in="SourceGraphic"/>
+                              </filter>
+                            </defs>
+                            <g id="Group_40" data-name="Group 40" transform="translate(9 6)">
+                              <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Ellipse_1)">
+                                <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="42" cy="42" r="42" transform="translate(9 6)" fill="#fff"/>
+                              </g>
+                              <text id="_2" data-name="2" transform="translate(24 59)" fill="#678aa5" font-size="56" font-family="VarelaRound-Regular, Varela Round"><tspan x="0" y="0">2</tspan></text>
+                            </g>
+                        </svg>
+                    </a>
+                    <a style="color: #30696D; text-decoration: none; padding-top: 2vh;" href="calendario.html">Día</a>
+                </div>
+            </span>
+            <span class="col-md-6 d-flex justify-content-end">
+                <div>
+                    <a style="color: #30696D; text-decoration: none; padding-top: 2vh;" href="perfil.html">Perfil</a>
+                    <a href="perfil.html">
+                        <svg width="4em" height="4em" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102" height="102" viewBox="0 0 102 102">
+                            <defs>
+                                <filter id="Ellipse_5" x="0" y="0" width="102" height="102" filterUnits="userSpaceOnUse">
+                                <feOffset dy="3" input="SourceAlpha"/>
+                                <feGaussianBlur stdDeviation="3" result="blur"/>
+                                <feFlood flood-opacity="0.161"/>
+                                <feComposite operator="in" in2="blur"/>
+                                <feComposite in="SourceGraphic"/>
+                                </filter>
+                            </defs>
+                            <g id="Group_41" data-name="Group 41" transform="translate(9.16 6)">
+                                <g transform="matrix(1, 0, 0, 1, -9.16, -6)" filter="url(#Ellipse_5)">
+                                <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="42" cy="42" r="42" transform="translate(9 6)" fill="#fff"/>
+                                </g>
+                                <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="15" cy="14" rx="15" ry="14" transform="translate(25.996 17.5)" fill="#608390"/>
+                                <path id="Path_5" data-name="Path 5" d="M19.46,0A19.46,19.46,0,0,1,38.92,19.46C38.92,30.208,0,30.208,0,19.46A19.46,19.46,0,0,1,19.46,0Z" transform="translate(22.874 39.674)" fill="#608390"/>
+                            </g>
+                        </svg>                  
+                    </a>
+                </div>
+            </span>
+        </nav>
+    </header>
+
+    <header></header>
+
+    <div class="container2">
+        <div class="container3">
+            <div class="calendar">
+              <div class="front">
+                <div class="current-date">
+                  <h1>Miercoles 26</h1>
+                  <h1>Mayo 2021</h1> 
+                </div>
+      
+                <div class="current-month">
+                  <ul class="week-days">
+                    <li>LUN</li>
+                    <li>MAR</li>
+                    <li>MIE</li>
+                    <li>JUE</li>
+                    <li>VIE</li>
+                    <li>SAB</li>
+                    <li>DOM</li>
+                  </ul>
+      
+                  <div class="weeks">
+                    <div class="first">
+                      <span class="last-month">25</span>
+                      <span class="last-month">26</span>
+                      <span class="last-month">27</span>
+                      <span class="last-month">28</span>
+                      <span class="last-month">29</span>
+                      <span class="last-month">30</span>
+                      <span>01</span>
+                    </div>
+      
+                    <div class="second">
+                      <span>02</span>
+                      <span>03</span>
+                      <span class="event">04</span>
+                      <span class="event">05</span>
+                      <span class="event">06</span>
+                      <span class="event">07</span>
+                      <span class="event">08</span>
+                    </div>
+      
+                    <div class="third">
+                      <span>09</span>
+                      <span class="event">10</span>
+                      <span class="event">11</span>
+                      <span>12</span>
+                      <span>13</span>
+                      <span class="event">14</span>
+                      <span class="event">15</span>
+                    </div>
+      
+                    <div class="fourth">
+                      <span>16</span>
+                      <span>17</span>
+                      <span class="event">18</span>
+                      <span class="event">19</span>
+                      <span>20</span>
+                      <span>21</span>
+                      <span>22</span>
+                    </div>
+      
+                    <div class="fifth">
+                      <span class="event">23</span>
+                      <span class="event">24</span>
+                      <span class="event">25</span>
+                      <span class="active">26</span>
+                      <span>27</span>
+                      <span>28</span>
+                      <span>29</span>
+                    </div>
+
+                    <div class="sixth">
+                        <span>30</span>
+                        <span>31</span>
+                        <span class="last-month">01</span>
+                        <span class="last-month">02</span>
+                        <span class="last-month">03</span>
+                        <span class="last-month">04</span>
+                        <span class="last-month">05</span>
+                      </div>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="back">
+                <input placeholder="What's the event?">
+                <div class="info">
+                  <div class="date">
+                    <p class="info-date">
+                    Date: <span>Jan 15th, 2016</span>
+                    </p>
+                    <p class="info-time">
+                      Time: <span>6:35 PM</span>
+                    </p>
+                  </div>
+                  <div class="address">
+                    <p>
+                      Direccion: <span>Calle 17 Zona centro, Matamoros TAMPS</span>
+                    </p>
+                  </div>
+                  <div class="observations">
+                    <p>
+                      Observations: <span>Be there 15 minutes earlier</span>
+                    </p>
+                  </div>
+                </div>
+      
+                <div class="actions">
+                  <button class="save">
+                    Save <i class="ion-checkmark"></i>
+                  </button>
+                  <button class="dismiss">
+                    Dismiss <i class="ion-android-close"></i>
+                  </button>
+                </div>
+              </div>
+      
+            </div>
+          </div>
+    </div>
+
+    <section></section>
+
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+        <span class="col-md-6 d-flex justify-content-around">
+            <a href="index.html">
+                <svg width="30" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 511 511.999" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><path xmlns="http://www.w3.org/2000/svg" d="m498.699219 222.695312c-.015625-.011718-.027344-.027343-.039063-.039062l-208.855468-208.847656c-8.902344-8.90625-20.738282-13.808594-33.328126-13.808594-12.589843 0-24.425781 4.902344-33.332031 13.808594l-208.746093 208.742187c-.070313.070313-.144532.144531-.210938.214844-18.28125 18.386719-18.25 48.21875.089844 66.558594 8.378906 8.382812 19.441406 13.234375 31.273437 13.746093.484375.046876.96875.070313 1.457031.070313h8.320313v153.695313c0 30.417968 24.75 55.164062 55.167969 55.164062h81.710937c8.285157 0 15-6.71875 15-15v-120.5c0-13.878906 11.292969-25.167969 25.171875-25.167969h48.195313c13.878906 0 25.167969 11.289063 25.167969 25.167969v120.5c0 8.28125 6.714843 15 15 15h81.710937c30.421875 0 55.167969-24.746094 55.167969-55.164062v-153.695313h7.71875c12.585937 0 24.421875-4.902344 33.332031-13.8125 18.359375-18.367187 18.367187-48.253906.027344-66.632813zm-21.242188 45.421876c-3.238281 3.238281-7.542969 5.023437-12.117187 5.023437h-22.71875c-8.285156 0-15 6.714844-15 15v168.695313c0 13.875-11.289063 25.164062-25.167969 25.164062h-66.710937v-105.5c0-30.417969-24.746094-55.167969-55.167969-55.167969h-48.195313c-30.421875 0-55.171875 24.75-55.171875 55.167969v105.5h-66.710937c-13.875 0-25.167969-11.289062-25.167969-25.164062v-168.695313c0-8.285156-6.714844-15-15-15h-22.328125c-.234375-.015625-.464844-.027344-.703125-.03125-4.46875-.078125-8.660156-1.851563-11.800781-4.996094-6.679688-6.679687-6.679688-17.550781 0-24.234375.003906 0 .003906-.003906.007812-.007812l.011719-.011719 208.847656-208.839844c3.234375-3.238281 7.535157-5.019531 12.113281-5.019531 4.574219 0 8.875 1.78125 12.113282 5.019531l208.800781 208.796875c.03125.03125.066406.0625.097656.09375 6.644531 6.691406 6.632813 17.539063-.03125 24.207032zm0 0" fill="#ffffff" data-original="#000000" style=""/></g></svg>
+            </a>
+        </span>
+        <span class="col-md-6 d-flex justify-content-around">
+            <a href="#">
+                <svg width="30" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 383.9 383.9" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                    <g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <path d="M344.1,49.95H320v-19c0-5.5-4.5-10-10-10s-10,4.5-10,10v19h-98v-19c0-5.5-4.5-10-10-10s-10,4.5-10,10v19H83v-19    c0-5.5-4.5-10-10-10s-10,4.5-10,10v19H39.9c-22,0-39.9,18.5-39.9,40.5v232.5c0,22.1,17.8,40,39.9,40H344    c22.1,0,39.9-17.9,39.9-39.9V90.45C384,68.45,366.1,49.95,344.1,49.95z M95.5,291.95H78c-5.5,0-10-4.5-10-10s4.5-10,10-10h17.6    c5.5,0,9.9,4.5,9.9,10S101,291.95,95.5,291.95z M95.5,223.95H78c-5.5,0-10-4.5-10-10s4.5-10,10-10h17.6c5.5,0,9.9,4.5,9.9,10    S101,223.95,95.5,223.95z M165.7,291.95h-17.5c-5.5,0-10-4.5-10-10s4.5-10,10-10h17.5c5.5,0,10,4.5,10,10    S171.2,291.95,165.7,291.95z M165.7,223.95h-17.5c-5.5,0-10-4.5-10-10s4.5-10,10-10h17.5c5.5,0,10,4.5,10,10    S171.2,223.95,165.7,223.95z M165.7,154.95h-17.5c-5.5,0-10-4.5-10-10s4.5-10,10-10h17.5c5.5,0,10,4.5,10,10    S171.2,154.95,165.7,154.95z M235.3,291.95h-17.5c-5.5,0-10-4.5-10-10s4.5-10,10-10h17.5c5.6,0,10,4.5,10,10    S240.8,291.95,235.3,291.95z M235.3,223.95h-17.5c-5.5,0-10-4.5-10-10s4.5-10,10-10h17.5c5.6,0,10,4.5,10,10    S240.8,223.95,235.3,223.95z M235.3,154.95h-17.5c-5.5,0-10-4.5-10-10s4.5-10,10-10h17.5c5.6,0,10,4.5,10,10    S240.8,154.95,235.3,154.95z M305.5,223.95H288c-5.5,0-10-4.5-10-10s4.5-10,10-10h17.5c5.5,0,10,4.5,10,10    S311,223.95,305.5,223.95z M305.5,154.95H288c-5.5,0-10-4.5-10-10s4.5-10,10-10h17.5c5.5,0,10,4.5,10,10S311,154.95,305.5,154.95z    " fill="#ffffff" data-original="#000000" style=""/>
+                            </g>
+                        </g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                        </g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                        </g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                        </g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                        </g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                        </g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                        </g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                        </g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                        </g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                        </g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                        </g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                        </g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                        </g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                        </g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                        </g>
+                        <g xmlns="http://www.w3.org/2000/svg">
+                        </g>
+                    </g>
+                </svg>
+            </a>
+        </span>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
